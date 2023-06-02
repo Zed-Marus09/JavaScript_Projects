@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Assuming you want the container to take up the full height of the viewport */
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.content {
+    width: 50%;
+    height: 30%;
+    background-color: #292b2c;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#count {
+    color: #f1f1f1;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#btnDec {
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+}
+
+#btnRes {
+    color: white;
+    background-color: #d9534f;
+    border: none;
+}
+
+#btnInc {
+    color: white;
+    background-color: #0275d8;
+    border: none;
+}
+
+#btnDec,
+#btnRes,
+#btnInc {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    font-weight: bold;
+}
